@@ -6,8 +6,8 @@ func printNumbers(i:Int, n:Int) {
     if n < 1{
         return
     }
-    printNumbers(i: i-1, n: n)
-    print(i)
+    printNumbers(i: i, n: n-1)
+    print(n)
 }
 
 printNumbers(i: 3, n: 3)
